@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- Fontawesome 6 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./home.css">    
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar__logo">LOGO</a>
+        <div class="navbar__search">
+            <input class="navbar__input-search" type="text" placeholder="Search for products...">
+            <button class="btn navbar__btn-search">Search</button>
+        </div>
+        <div class="navbar__control">
+            <select name="store" class="select-store" id="select-store">
+            </select>
+
+            <button class="btn navbar__cart">
+                <i class="cart__icon fa-solid fa-cart-shopping"></i>
+                <span class="cart__title">Cart</span>
+            </button>
+            <div class="navbar__user">
+                <!-- <h4 class="navbar__username">Phu Thinh</h4> -->
+                <button class="btn btn-login">Login</button>
+            </div>
+        </div>
+
+    </nav>
+    <section>
+        <div class="product-list">
+           
+        </div>
+    </section>
+    <footer>
+    </footer>
+
+    <script src="./js/config.js"></script>
+    <script src="./home.js"></script>
+</body>
+</html>
